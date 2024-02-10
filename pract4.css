@@ -1,0 +1,153 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  header {
+    background-color: #111;
+    color: #fff;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav li {
+    margin-right: 16px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .hero {
+    background-image: url(nft-dark-responsive-landing-page-ui-ux-design-free-download-by-taqwah.webp);
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0;
+  }
+  
+  .hero.fullscreen-image {
+    height: 100vh;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 16px;
+  }
+  
+  .hero p {
+    font-size: 24px;
+    margin-bottom: 32px;
+  }
+  
+  .hero a {
+    background-color: #000;
+    color: #fff;
+    padding: 16px 32px;
+    text-decoration: none;
+  }
+  
+  
+  main {
+    padding: 80px 0;
+  }
+  
+  .about {
+    background-color: #f5f5f5;
+    padding: 80px 0;
+  }
+  
+  .about h2 {
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+  
+  .about p {
+    font-size: 24px;
+    margin-bottom: 32px;
+  }
+  
+  .about ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about li {
+    margin-bottom: 16px;
+  }
+  
+  .services {
+    padding: 80px 0;
+  }
+  
+  .services h2 {
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+  
+  .services-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .service {
+    width: 25%;
+    padding: 32px;
+    margin-bottom: 32px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .service img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+  }
+  
+  .service h3 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  .service p {
+    font-size: 16px;
+  }
+  
+  footer {
+    background-color: #111;
+    color: #fff;
+    padding: 80px 0;
+  }
+  
+  footer p {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  html, body {
+    height: 100%;
+  }
+
+  .hero {
+    height: 100%;
+  }
